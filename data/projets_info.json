@@ -1,16 +1,16 @@
 {
     "projets": [
         {
-            "image": "",
-            "name": "",
-            "description": "",
-            "link": ""
+            "image": "Image/weather.png",
+            "name": "Weather App",
+            "description": "weather forecast app for international travellers",
+            "link": "https://skyroute66.com/eurorbit2/"
         },
         {
-            "image": "",
-            "name": "",
-            "description": "",
-            "link": ""
+            "image": "Image/chamber_of_commerce.png",
+            "name": "Cote D'ivoire Chambers of Commerce",
+            "description": "This website represent the chambers of commerce of cote D'ivoire",
+            "link": "https://siaheguelable.github.io/wdd230/chamber/index.html"
         },
         {
             "image": "",
