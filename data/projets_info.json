@@ -1,7 +1,7 @@
 {
     "projets": [
         {
-            "image": "Image/weather.png",
+            "image": "https://raw.githubusercontent.com/siaheguelable/CODSOFT/refs/heads/main/Image/weather.png",
             "name": "Weather App",
             "description": "weather forecast app for international travellers",
             "link": "https://skyroute66.com/eurorbit2/"
