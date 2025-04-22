@@ -1,0 +1,182 @@
+@media only screen and (min-width: 38rem) {
+    :root {
+        --main-backround-color: black;
+        --color-h1: #2063a3;
+        --color-h3: #2063a3;
+        --project-div: #f5bd8c;
+        --text-alignment: center;
+        --font-color: white;
+    }
+
+
+
+
+    body {
+        background-color: var(--main-backround-color);
+        text-align: var(--text-alignment);
+        color: var(--font-color);
+
+    }
+
+    #projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15px;
+    }
+
+    #about img {
+        height: 300px;
+
+
+    }
+
+    #about img:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(15, 15, 15, 0.2);
+    }
+
+    #about {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        margin-left: 300px;
+        margin-right: 300px;
+        background-color: #8f9b64;
+        padding: 20px;
+
+
+
+    }
+
+    #Highlights {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        color: black;
+        margin: 20px;
+        column-gap: 20px;
+        margin-top: 0.5px;
+    }
+
+    #Highlights div {
+        background-color: #8f9b64;
+        border-radius: 20px;
+
+
+
+    }
+
+    #Highlights div:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(250, 246, 246, 0.2);
+    }
+
+
+
+    #H #Highlights,
+    #container {
+        background-color: #847b84;
+    }
+
+    #contacts,
+    #skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        color: black;
+        margin: 20px;
+        column-gap: 20px;
+        margin-bottom: 15px;
+
+
+    }
+
+
+
+
+
+
+
+    #contacts {
+        background-color: #8f9b64;
+        padding: 20px;
+    }
+
+    #skills div {
+        background-color: #8f9b64;
+    }
+
+    #skills div:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(20, 20, 20, 0.2);
+    }
+
+    /*header section*/
+    header {
+        background-color: #847b84;
+    }
+
+    section h3 {
+        background-color: #847b84;
+    }
+
+    #projects {
+
+        margin-top: 20px;
+        color: black;
+        margin: 20px;
+
+    }
+
+    #projects div {
+        background-color: #8f9b64;
+        margin-bottom: 20px;
+        padding: 30px;
+    }
+
+    #projects .div1:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(238, 232, 232, 0.589);
+    }
+
+    footer {
+        background-color: #847b84;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    #projects #div1 {
+        margin-right: 20px;
+    }
+
+    #skills div {
+        margin-bottom: 15px;
+        padding: 25px;
+    }
+
+    #skills ul {
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    #Highlights div {
+        margin-bottom: 15px;
+        padding: 30px;
+    }
+
+
+
+    .no-bullets {
+        list-style: none;
+        padding-left: 0;
+        margin: 16px;
+    }
+
+    #portifolio {
+        background-color: #847b84;
+    }
+
+    #projects div:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(15, 15, 15, 0.589);
+    }
+}
