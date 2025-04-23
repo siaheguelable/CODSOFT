@@ -1,5 +1,5 @@
 {
-    "projets": [
+    "projets_info": [
         {
             "image": "https://raw.githubusercontent.com/siaheguelable/CODSOFT/refs/heads/main/Image/weather.png",
             "name": "Weather App",
