@@ -15,7 +15,7 @@
         background-color: var(--main-backround-color);
         text-align: var(--text-alignment);
         color: var(--font-color);
-
+        font-size: 20px;
     }
 
     #projects {
@@ -127,7 +127,7 @@
 
     }
 
-    #projects div {
+    .member-card {
         background-color: #8f9b64;
         margin-bottom: 20px;
         padding: 30px;
@@ -175,8 +175,22 @@
         background-color: #847b84;
     }
 
-    #projects div:hover {
+    .member-card:hover {
         transform: translateY(-5px);
         box-shadow: 0 8px 16px rgba(15, 15, 15, 0.589);
+    }
+
+    .member-card p {
+        font-size: 19px;
+    }
+
+    .member-card a {
+        text-decoration: none;
+        background-color:
+            rgb(69, 69, 105);
+        color: white;
+        font-size: 19px;
+        font-weight: bold;
+
     }
 }
