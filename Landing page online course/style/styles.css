@@ -30,6 +30,7 @@ header{
 }
  #top{
     color: var(--button-color);
+    font-size: 20px;
  }
 
 
@@ -37,42 +38,79 @@ header{
 #top-employers div{
 
     text-align: center;
+    padding: 30px;
+    
 
 }
 
 h1{
     text-align: center;
+    font-size: 50px;
 }
 
 #details{
     background-color: var(--secondary-color);
-    text-align: center;
+    
+    background-color: #f6faff;
 }
 
-#expertise{
+#expertises{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    background-color: #f6faff;
 }
 
 #testimonials{
     text-align: center;
     background-color: var(--primary-color);
     color: var(--color);
+    padding: 10px;
 }
 
 #testimonials-content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
+    padding: 100px 0;
+}
+
+#testimonials-content div{
+    background-color: white;
+    color: black;
+    padding: 40px 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+}
+#testimonials-content p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#testimonials-content img{
+    width: 240px;
+    height: 240px;
+    
+    margin-bottom: 20px;
 }
 
 #Overview{
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    padding: 100px 0;
+}
+#Overview img{
+    width: 370px;
+    height: 448px;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    margin-left: 200px;
 }
 
 #work{
-    background-color:var(--secondary-color);
+    background-color: #f6faff;
 }
 #work h1,p{
     text-align: center;
@@ -81,7 +119,25 @@ h1{
 #how-it-works{
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    background-color: #f6faff;
+    
 }
+
+#how-it-works div{
+    text-align: center;
+    padding: 20px;
+    
+    color: black
+   
+}
+
+#how-it-works img{
+    width: 389px;
+    height: 389px;
+  
+}
+
+
 
 #Jordan{
     display: grid;
@@ -89,12 +145,21 @@ h1{
     background-color: var(--primary-color);
     color: var(--color);
     text-align: center;
+    padding: 90px 0;
+}
+
+#Jordan img,#Cynthia img{
+    width: 390.61px;
+    height: 473.22px;
+    
 }
 
 #Cynthia{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     text-align: center;
+    padding: 90px 0;
+    background-color: #f6faff;
 }
 
 #percentage{
@@ -138,4 +203,13 @@ footer{
     background-color: var(--primary-color);
     color: white;
     text-align: center;
+}
+
+.member-card{
+    margin: 20px;
+}
+#plans-container #most{
+    background-color: var(--button-color);
+    padding: 15px;
+    color: white
 }
