@@ -1,7 +1,7 @@
 {
     "projets_info": [
         {
-            "image": "https://raw.githubusercontent.com/siaheguelable/CODSOFT/refs/heads/main/Image/weather.png",
+            "image": "https://raw.githubusercontent.com/siaheguelable/CODSOFT/refs/heads/main/Portifolio/Image/weather.png",
             "name": "Weather App",
             "description": "weather forecast app for international travellers",
             "link": "https://skyroute66.com/eurorbit2/"
@@ -14,9 +14,9 @@
         },
         {
             "image": "",
-            "name": "",
-            "description": "",
-            "link": ""
+            "name": "Online Course",
+            "description": "The landing page of the online course ",
+            "link": "https://siaheguelable.github.io/CODSOFT/Landing%20page%20online%20course/index.html"
         }
     ]
 }

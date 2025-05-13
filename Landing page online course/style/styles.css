@@ -70,7 +70,7 @@ h1{
 
 #testimonials-content{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding: 100px 0;
 }
@@ -112,7 +112,7 @@ h1{
 #work{
     background-color: #f6faff;
 }
-#work h1,p{
+#work h1{
     text-align: center;
 }
 
@@ -124,12 +124,22 @@ h1{
 }
 
 #how-it-works div{
-    text-align: center;
+    
     padding: 20px;
     
     color: black
    
 }
+
+#how-it-works b, #plans b {
+    background-color: #cadeff;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 50%;
+    color: var(--button-color);
+}
+
+
 
 #how-it-works img{
     width: 389px;
@@ -180,11 +190,27 @@ button{
 
 }
 
+button:hover{
+    background-color:#cadeff;
+    transition: 0.3s;
+    color: black;
+    font-size: bold;
+}
+
+#stars{
+    color:yellow;
+   
+    height: auto;
+    width: auto;
+}
+
+
+
 #plans-container{
     background-color: var(--primary-color);
     color: var(--color);
     padding: 20px;
-    text-align: center;
+   
     font-family: var(--font-family);
 }
 
@@ -197,14 +223,41 @@ button{
 #plans div{
     background-color: white;
     color: black    ;
+
+}
+
+#plans div h1, #plans div p{
+    padding-left: 40px;
+    padding: 5px;
+    
+    color: black
+}
+
+#plans div button{
+    margin-left: 120px;
+
 }
 
 footer{
     background-color: var(--primary-color);
     color: white;
     text-align: center;
+
+}
+#footer-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+    padding: 20px;
 }
 
+ #footer-content #right{
+    margin-left: -250px;
+}
+#footer-content #terms{
+    margin-right: -300px;
+
+}
 .member-card{
     margin: 20px;
 }

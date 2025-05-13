@@ -1,6 +1,6 @@
 const projets = document.querySelector('#projects');
 
-const url = "https://siaheguelable.github.io/CODSOFT/data/projets_info.json";
+const url = "https://siaheguelable.github.io/CODSOFT/Portifolio/data/projets_info.json";
 
 async function getData() {
     try {
