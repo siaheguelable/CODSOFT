@@ -32,7 +32,7 @@ const url="https://siaheguelable.github.io/CODSOFT/Landing%20page%20online%20cou
         icon.setAttribute('src', info.icon);
         icon.setAttribute('alt', `Logo of ${info.title}`);
         icon.setAttribute('loading', 'lazy');
-        icon.setAttribute('width', '200');
+        icon.setAttribute('width', '20');
         icon.setAttribute('height', '300');
 
         const name = document.createElement('h2');

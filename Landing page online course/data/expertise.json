@@ -3,12 +3,14 @@
         {
         "title": "Advanced Digital Techniques",
         "description": "Inspiring tales of how our course transformed careers and businesses. Real examples of success in marketing.",
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'><path d='M26.6666 4H5.33329C3.86053 4 2.66663 5.19391 2.66663 6.66667V20C2.66663 21.4728 3.86053 22.6667 5.33329 22.6667H26.6666C28.1394 22.6667 29.3333 21.4728 29.3333 20V6.66667C29.3333 5.19391 28.1394 4 26.6666 4Z' stroke='#126BFF' stroke-width='2.66667' stroke-linecap='round' stroke-linejoin='round'></path><path d='M10.6666 28H21.3333' stroke='#126BFF' stroke-width='2.66667' stroke-linecap='round' stroke-linejoin='round'></path><path d='M16 22.6665V27.9998' stroke='#126BFF' stroke-width='2.66667' stroke-linecap='round' stroke-linejoin='round'></path></svg>"
+        "icon": "https://www.cci.ci/wp-content/uploads/2022/02/Globe.png"
         },
         {
         "title": "Real-World Case Studies",
         "description": "Learn firsthand about our course from those who have taken it. Discover their experiences and insights.",
-        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\"><path d=\"M16 29.3332C23.3638 29.3332 29.3333 23.3636 29.3333 15.9998C29.3333 8.63604 23.3638 2.6665 16 2.6665C8.63616 2.6665 2.66663 8.63604 2.66663 15.9998C2.66663 23.3636 8.63616 29.3332 16 29.3332Z\" stroke=\"#126BFF\" stroke-width=\"2.66667\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M2.66663 16H29.3333\" stroke=\"#126BFF\" stroke-width=\"2.66667\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M16 2.6665C19.335 6.31764 21.2303 11.0559 21.3333 15.9998C21.2303 20.9438 19.335 25.682 16 29.3332C12.6649 25.682 10.7696 20.9438 10.6666 15.9998C10.7696 11.0559 12.6649 6.31764 16 2.6665Z\" stroke=\"#126BFF\" stroke-width=\"2.66667\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+        "icon": "https://www.cci.ci/wp-content/uploads/2022/02/argent.png"
+        },
+        {
         },
         {
         "title": "Insights from Experts",
@@ -18,17 +20,17 @@
         {
             "title": "Professional Certification",
             "description": "Insights from industry leaders who have applied our strategies to achieve marketing success.",
-            "icon":  "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\"><path d=\"M16 20.0002C21.1546 20.0002 25.3333 15.8215 25.3333 10.6668C25.3333 5.51217 21.1546 1.3335 16 1.3335C10.8453 1.3335 6.66663 5.51217 6.66663 10.6668C6.66663 15.8215 10.8453 20.0002 16 20.0002Z\" stroke=\"#126BFF\" stroke-width=\"2.66667\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M10.9467 18.5202L9.33337 30.6668L16 26.6668L22.6667 30.6668L21.0534 18.5068\" stroke=\"#126BFF\" stroke-width=\"2.66667\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            "icon":  "https://www.cci.ci/wp-content/uploads/2022/02/terre.png"
             },
             {
             "title": "Networking Opportunities",
             "description": "Discover why our clients love our course and how it has helped them achieve their marketing goals.",
-            "icon": " <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\"><path d=\"M28 15.3334C28.0046 17.0932 27.5934 18.8292 26.8 20.4C25.8592 22.2824 24.413 23.8656 22.6233 24.9724C20.8335 26.0792 18.771 26.6659 16.6667 26.6667C14.9068 26.6713 13.1708 26.2601 11.6 25.4667L4 28L6.53333 20.4C5.73991 18.8292 5.32875 17.0932 5.33333 15.3334C5.33415 13.229 5.92082 11.1665 7.02763 9.37677C8.13444 7.58704 9.71767 6.14079 11.6 5.20004C13.1708 4.40661 14.9068 3.99545 16.6667 4.00004H17.3333C20.1125 4.15336 22.7374 5.32639 24.7055 7.29452C26.6737 9.26265 27.8467 11.8876 28 14.6667V15.3334Z\" stroke=\"#126BFF\" stroke-width=\"2.66667\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            "icon": "https://www.cci.ci/wp-content/uploads/2022/02/Graph.png"
             },
             {
             "title": "Personal Sessions",
             "description": "Discover how our course has benefited a diverse range of learners. Their stories showcase the course's impact.",
-            "icon":"<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\"><path d=\"M28.28 21.1868C27.4318 23.1927 26.1051 24.9604 24.4158 26.3352C22.7266 27.71 20.7264 28.65 18.5899 29.0731C16.4535 29.4963 14.2459 29.3896 12.1602 28.7625C10.0745 28.1354 8.17418 27.0069 6.62537 25.4756C5.07656 23.9444 3.92643 22.0571 3.27552 19.9787C2.62462 17.9003 2.49276 15.6941 2.89147 13.5529C3.29019 11.4118 4.20734 9.40094 5.56274 7.69614C6.91814 5.99135 8.67052 4.64453 10.6667 3.77344\" stroke=\"#126BFF\" stroke-width=\"2.66667\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M29.3333 15.9998C29.3333 14.2489 28.9885 12.5151 28.3184 10.8974C27.6483 9.27972 26.6662 7.80986 25.4281 6.57175C24.19 5.33363 22.7201 4.35151 21.1024 3.68144C19.4848 3.01138 17.751 2.6665 16 2.6665V15.9998H29.3333Z\" stroke=\"#126BFF\" stroke-width=\"2.66667\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            "icon":"https://www.cci.ci/wp-content/uploads/2022/02/stand.png"
             }
     ]
 }

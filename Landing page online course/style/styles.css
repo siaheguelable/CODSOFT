@@ -264,5 +264,11 @@ footer{
 #plans-container #most{
     background-color: var(--button-color);
     padding: 15px;
+    
     color: white
+}
+
+.member-card img{
+    height: 45px;
+    width: 45px;
 }
