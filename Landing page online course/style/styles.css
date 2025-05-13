@@ -259,7 +259,8 @@ footer{
 
 }
 .member-card{
-    margin: 20px;
+    margin: 30px;
+    margin-left: 20px;
 }
 #plans-container #most{
     background-color: var(--button-color);
