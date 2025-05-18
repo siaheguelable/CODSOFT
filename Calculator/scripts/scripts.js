@@ -20,7 +20,7 @@ function calculate() {
     }
     finally {
         setTimeout(() => {
-            display.value = "";
+            display.value = 0;
         }, 2000);
     }   
 }
