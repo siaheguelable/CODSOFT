@@ -1,0 +1,164 @@
+
+    
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:antiquewhite;
+}
+
+#nav {
+display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    
+
+}
+
+.header-content{
+    background-color: black;
+}
+
+#sidebar {
+    background-color: #f4f4f4;
+
+    width: 250px;
+ 
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#sidebar-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    border-radius: 5px; 
+}
+
+#sidebar-content h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#sidebar-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar-content ul li {
+    margin-bottom: 8px;
+}
+
+#sidebar-content ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#sidebar-content ul li a:hover {
+    text-decoration: underline;
+}
+
+.Overview2{
+    background-color: black;
+}
+
+#sidebar-content {
+    padding: 10px;
+
+}
+#sidebar-content li:hover {
+    background-color: #e0e0e0;
+    padding: 15px;
+    margin-left: 0;
+    text-decoration: none;
+}
+#sidebar-content li {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#Dashboard{
+    background-color: #f4f4f4;
+    
+    border-radius: 5px;
+    margin-top: -20px;
+}
+
+#sidebar-content ul{
+    background-color: antiquewhite;
+}
+
+#sidebar-content a:hover {
+    text-decoration: none;
+}
+
+#crypto-news{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: antiquewhite;
+    color: black;
+
+    
+}
+
+
+#crypto-news ul {
+    
+    padding: 0;
+    margin: 0;
+}
+#crypto-news li {
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    list-style: none;
+}
+
+
+/* Hide sidebar and show hamburger on mobile */
+#sidebar {
+  transition: transform 0.3s ease;
+}
+
+#hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+@media (max-width: 900px) {
+  #sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 240px;
+    background: #fff;
+    box-shadow: 2px 0 16px rgba(60, 60, 120, 0.07);
+    z-index: 1000;
+    transform: translateX(-100%);
+  }
+  #sidebar.open {
+    transform: translateX(0);
+  }
+  #hamburger {
+    display: block;
+  }
+  main {
+    padding-left: 0 !important;
+  }
+
+  #header{
+    display: block;
+  }
+}

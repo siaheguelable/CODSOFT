@@ -1,0 +1,58 @@
+body {
+   background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(40, 60, 120, 0.18);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  min-width: 320px;
+  margin-top: 50px;
+}
+
+form label {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.2rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  padding: 0.7rem;
+  border: 1px solid #bdbdbd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.2s;
+}
+
+form input:focus {
+  border-color: #fcb69f;
+  outline: none;
+}
+
+form button[type="submit"] {
+  background: linear-gradient(90deg, #ff9966 0%, #ff5e62 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 0.5rem;
+}
+
+form button[type="submit"]:hover {
+   background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
+}
