@@ -9,7 +9,7 @@ async function fetchPrices() {
 
 const displayPrices = (data) => {
   const pricesContainer = document.querySelector('#crypto-prices');
-  pricesContainer.innerHTML = ''; // Clear previous content
+  pricesContainer.innerHTML = '';
   data.forEach(coin => {
     const priceElement = document.createElement('div');
     priceElement.classList.add('price-item');
@@ -38,17 +38,18 @@ fetchPrices().then(data => {
   if (data) displayPrices(data);
 });
 
-const API_KEY = "ccbe41ff178240c99b829e069c0a32b9"; // Replace with your actual API key
-
-const newsApiUrl = `https://newsapi.org/v2/everything?q=apple&from=2025-06-13&to=2025-06-13&sortBy=popularity&apiKey=${API_KEY}`;
+// ✅ GNews.io API
+const GNEWS_API_KEY = "69f0234c91e108526edfd307c982e9a1"; // Replace with your actual GNews API key
+const gnewsApiUrl = `https://gnews.io/api/v4/search?q=cryptocurrency&lang=en&max=5&token=${GNEWS_API_KEY}`;
 
 async function fetchNews() {
   try {
-    const response = await fetch(newsApiUrl);
+    const response = await fetch(gnewsApiUrl);
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     const data = await response.json();
+    console.log(data.articles);
     return data.articles;
   } catch (error) {
     console.error("Error fetching news:", error);
@@ -57,7 +58,7 @@ async function fetchNews() {
 }
 
 const displayNews = (articles) => {
-  newsContainer.innerHTML = ''; // Clear previous content
+  newsContainer.innerHTML = '';
   articles.forEach(info => {
     const card = document.createElement('li');
     card.classList.add('member-card');
@@ -66,7 +67,7 @@ const displayNews = (articles) => {
     name.textContent = info.title;
 
     const description = document.createElement('p');
-    description.textContent = info.description;
+    description.textContent = info.description || '';
 
     card.appendChild(name);
     card.appendChild(description);
@@ -81,8 +82,3 @@ fetchNews().then(articles => {
     displayNews(top3);
   }
 });
-
-// return 5 articles from the news API
-// Note: The above code fetches news articles related to "apple" on a specific date.
-// You can modify the query and date parameters as needed.
-// The API key is used to authenticate requests to the News API.

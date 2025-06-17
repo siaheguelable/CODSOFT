@@ -1,6 +1,6 @@
 
 const expertises = document.querySelector('#expertises'); // Select the expertise section in the HTML
-const url="https://siaheguelable.github.io/CODSOFT/Landing%20page%20online%20course/data/expertise.json";
+const url="https://siaheguelable.github.io/CODSOFT/Landing_page_online_course/data/expertise.json";
 
 
 
