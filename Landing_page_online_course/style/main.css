@@ -101,10 +101,75 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-    background-color: antiquewhite;
+    background-color: #161616;
     color: black;
+    overflow: hidden;
+    transform: scale (1.5);
 
     
+}
+
+#crypto-news li{
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+}
+#crypto-news li::after{
+    content:"" ;
+    z-index:-1 ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    left: 0;
+    top: 0  ;
+    border-radius: 10px;
+    bottom: 0;
+
+}
+
+/*glow effect*/
+#crypto-news li:hover::before {
+    content: "";
+   background: linear-gradient(45deg,#FF0000,#FF7300,#FFFB00,#48FF00,#00FFD5,#002BFF,#FF00C8,#FF0000);
+   position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -1;
+    background-size: 600px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    filter: blur(8px);
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+    opacity: 1;
+
+}
+@keyframes glowing {
+    0% {
+        background-position: 0,0;
+    }
+    50% {
+         background-position: 400%,0;
+    }
+    100% {
+        background-position: 0,0;
+    }
+}
+
+#crypto-news li:active:after{
+    background: transparent;
+}
+#crypto-news li{
+    color: white;
+    font-weight: bold;
 }
 
 
